@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@400;500;600;700&display=swap');
+.container{
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    max-width: 1200 px;
+    margin: 5px;
+    padding: 30px;
+}
+#logo-img{
+    width: 70px; height: 70px;
+}
+.hire-button{
+    text-decoration: none;
+    background-image: linear-gradient(dodgerblue , royalblue);
+    color: white;
+    font-weight: 600;
+    padding: 5px 30px;
+    border-radius: 20px;
+    transition-duration: 0.4s;
+}
+.hire-button:hover{
+
+    background-image: linear-gradient(rgb(52, 106, 160),rgb(69, 98, 184));
+    color: white ;
+}
+table, th , td{
+    width: 40%;
+    padding: 15px;
+    align-items: center;
+    border: 1px solid black;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+footer{
+    text-align: center;
+    color: dimgray;
+}
